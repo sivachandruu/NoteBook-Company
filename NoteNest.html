@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>Notebook Company</title>
+    <style>
+        
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        #product {
+            border: 1px solid #ddd;
+            margin: 10px 0;
+            padding: 10px;
+            background-color: white;
+        }
+        #box {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        #contact-form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Our NoteNest</h1>
+    <p>Your source for high-quality notebooks!</p>
+</header>
+
+    <h2>Our Products</h2>
+
+    <div id="product">
+        <h3>Classic Notebook</h3>
+        <img src="notebook1.jpg" alt="Classic Notebook" style="width:100px;height:100px;">
+        <p>Perfect for students and professionals alike. Comes in various colors.</p>
+        <p>Price: 150Rs</p>
+    </div>
+
+    <div id="product">
+        <h3>Luxury Leather Notebook</h3>
+        <img src="notebook2.jpg" alt="Luxury Leather Notebook" style="width:100px;height:100px;">
+        <p>Made with genuine leather. Ideal for special occasions.</p>
+        <p>Price: 499Rs</p>
+    </div>
+
+    <div id="product">
+        <h3>Eco-Friendly Notebook</h3>
+        <img src="notebook3.jpg" alt="Eco-Friendly Note" style="width:100px;height:100px;">
+        <p>Made from recycled materials. Help save the planet while you write!</p>
+        <p>Price: 350Rs</p>
+    </div>
+
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+        Name:<br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        Email:<br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        Message:<br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+<div id="box">
+    <p>&copy; 2024 NoteNest. All rights reserved.</p>
+</div>
+
+</body>
+</html>
